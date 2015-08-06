@@ -1,6 +1,8 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+SITE_URL = 'http://example.com/'
+
 DATABASE_SETTINGS = {
     'name': 'open_ad_platform',
     'user': 'user',
