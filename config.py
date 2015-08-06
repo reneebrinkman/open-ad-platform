@@ -2,7 +2,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 DATABASE_SETTINGS = {
-    'name': 'open-ad-platform',
+    'name': 'open_ad_platform',
     'user': 'user',
     'password': 'pass',
     'host': 'localhost',
