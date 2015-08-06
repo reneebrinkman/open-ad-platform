@@ -12,3 +12,7 @@ def index():
 def get_ad():
     ad = random.choice(models.Advertisement.query.all())
     return render_template('ad.html', **ad.render())
+
+@app.route('/adscript')
+def ad_script():
+    return app.send_static_file('js/ad.js')

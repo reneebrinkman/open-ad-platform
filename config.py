@@ -1,7 +1,7 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-SITE_URL = 'http://example.com/'
+SITE_URL = 'http://localhost:5000/'
 
 DATABASE_SETTINGS = {
     'name': 'open_ad_platform',
