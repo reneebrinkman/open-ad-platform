@@ -1,0 +1,11 @@
+My goal as project maintainer is to make contributing as easy and streamlined as possible and to lower the barrier to entry, so to speak, as compared to most open source projects.
+
+Fortunately, this project is hosted on GitHub, which already helps simplify the process for beginners to a certain degree.
+
+In addition, I would like to provide comprehensive information about the types of contributions I am currently looking for.
+
+For one thing, as is typical for most projects, check the issues area to look for bug reports that people may have submitted and see if it's something you can fix.
+
+If none of the current bugs interest you, I have taken the time to fill the MILESTONES.txt file with a comprehensive plan for the direction I would like to see the project continue in.  As each feature listed in MILESTONES.txt is implemented, there will be a note next to the given feature stating that it is complete.  If you find one that has not been implemented that you want to work on, there's your opportunity.
+
+You may also have your own ideas for a feature that you may want to see incorporated into the project.  If so, go ahead and implement it and I will look at your pull request and see if it's feasible to include.  I'm a pretty flexible person, so if it doesn't interfere too much with another part of the code, I will most likely be happy to incorporate your idea.
