@@ -16,3 +16,8 @@ def get_ad():
 @app.route('/adscript')
 def ad_script():
     return app.send_static_file('js/ad.js')
+
+@app.after_request
+def allow_cross_origin_requests(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
