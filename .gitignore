@@ -1,2 +1,5 @@
 # emacs backup files
 *~
+*.pyc
+__pycache__/
+db_repository/
