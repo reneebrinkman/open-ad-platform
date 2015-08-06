@@ -11,7 +11,7 @@ In order to provide a 0.1 release, the following features must be implemented an
 
 * this initial release will not perform any client checks to filter ads.  It will simply have a view that outputs a randomly chosen ad to be rendered to any web page that uses the embed code (implemented)
 
-* the embed code
+* the embed code (implemented)
 
 0.2 release:
 
