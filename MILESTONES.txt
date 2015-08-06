@@ -2,16 +2,22 @@ Initial Prototype (0.1 release):
 
 In order to provide a 0.1 release, the following features must be implemented and polished:
 
-* A basic database backend using SQLAlchemy
-  * a Advertisement model to represent each available ad
-  * an Advertisee model to represent each "client" website that displays ads
-
-* Primitive ad filtration logic that helps narrow ads down based on the client-id
+* A basic database backend using SQLAlchemy (implemented)
+  * a Advertisement model to represent each available ad (implemented)
 
 * an index view, displaying a web page that explains that this is an advertising network
 
+* various scripts for managing the database, including one that populates the database with an ad that links back to the index view (mentioned above) and says "Ad space for sale" or something to that effect.  additionally another script may be added that populates the database with other sample advertisement data
+
+* this initial release will not perform any client checks to filter ads.  It will simply have a view that outputs a randomly chosen ad to be rendered to any web page that uses the embed code
+
+
+0.2 release:
+
+* an Advertisee model to represent each "client" website that displays ads
+
+* Primitive ad filtration logic that helps narrow ads down based on the client-id
+
 * a view that pulls a list of potential ads and filters out ones that cannot be used with the provided client-id, chooses a random ad from the filtered list and sends it back to the client website to be rendered on the page this view will only be called from URLs embedded in HTML documents, it is not intended to be viewed directly from a web browser
 
-* a script that generates ad code for embedding in a website, and outputs it directly to the shell (this will need to be part of the web interface sooner rather than later though, perhaps in time for the 0.2 release)
-
-* various scripts for managing the database, including one that populates the database with an ad that links back to the index view (mentioned above) and says "Ad space for sale" or something to that effect.  additionally another script may be added that populates the database with other sample advertisement data
+* a script that generates ad code for embedding in a website, specific to a client-id, and outputs it directly to the shell (this will need to be part of the web interface sooner rather than later though, perhaps in time for the 0.3 release)
